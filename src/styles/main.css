@@ -1,0 +1,13 @@
+.spinner {
+    animation: anim-spinner 1S infinite;
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    border: black solid dotted;
+    background: linear-gradient(135deg, #994fad 0%,#3960d6 70%,#3960d6 70%,#3960d6 100%); 
+}
+
+@keyframes anim-spinner {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
